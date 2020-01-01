@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CollisionController.cs" />
+     <Compile Include="Assets\RacketPlayer1.cs" />
+     <Compile Include="Assets\RacketPlayer2.cs" />
      <Compile Include="Assets\Scripts\BallMovement.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
  <Reference Include="UnityEditor.StandardEvents">

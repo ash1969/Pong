@@ -862,6 +862,8 @@ GameObject:
   - component: {fileID: 725504991}
   - component: {fileID: 725504990}
   - component: {fileID: 725504989}
+  - component: {fileID: 725504993}
+  - component: {fileID: 725504992}
   m_Layer: 0
   m_Name: RacketPlayer2
   m_TagString: Untagged
@@ -949,6 +951,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 725504987}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!50 &725504992
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725504987}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
+--- !u!114 &725504993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725504987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d00ac45d2d6be4fa7880971920d3fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
 --- !u!1 &780386644
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +996,7 @@ GameObject:
   - component: {fileID: 780386649}
   - component: {fileID: 780386646}
   - component: {fileID: 780386650}
+  - component: {fileID: 780386651}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1083,6 +1118,18 @@ MonoBehaviour:
   movementSpeed: 400
   extraSpeedPerHit: 50
   maxExtraSpeed: 1000
+--- !u!114 &780386651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780386644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8a8d4ec820a5649b41609ee6c3dfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballMovement: {fileID: 780386650}
 --- !u!1 &840871593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1314,8 @@ GameObject:
   - component: {fileID: 1002744906}
   - component: {fileID: 1002744905}
   - component: {fileID: 1002744904}
+  - component: {fileID: 1002744907}
+  - component: {fileID: 1002744908}
   m_Layer: 0
   m_Name: RacketPlayer1
   m_TagString: Untagged
@@ -1354,6 +1403,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1002744902}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1002744907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1002744902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceaa83c608180594fb138ab610e32bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
+--- !u!50 &1002744908
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1002744902}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
 --- !u!1 &1267562989
 GameObject:
   m_ObjectHideFlags: 0
