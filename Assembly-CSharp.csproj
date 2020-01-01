@@ -53,12 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BallMovement.cs" />
-     <Compile Include="Assets\Scripts\CollisionController.cs" />
-     <Compile Include="Assets\Scripts\PlayButton.cs" />
-     <Compile Include="Assets\Scripts\RacketPlayer1.cs" />
-     <Compile Include="Assets\Scripts\RacketPlayer2.cs" />
-     <Compile Include="Assets\Scripts\ScoreController.cs" />
+     <Compile Include="Assets\Resources\Scripts\BallMovement.cs" />
+     <Compile Include="Assets\Resources\Scripts\CollisionController.cs" />
+     <Compile Include="Assets\Resources\Scripts\PlayButton.cs" />
+     <Compile Include="Assets\Resources\Scripts\RacketPlayer1.cs" />
+     <Compile Include="Assets\Resources\Scripts\RacketPlayer2.cs" />
+     <Compile Include="Assets\Resources\Scripts\ScoreController.cs" />
+     <Compile Include="Assets\SoundController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Dell/Documents/PongClone/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
