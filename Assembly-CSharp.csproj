@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\RacketPlayer2AI.cs" />
      <Compile Include="Assets\Resources\Scripts\BallMovement.cs" />
      <Compile Include="Assets\Resources\Scripts\CollisionController.cs" />
      <Compile Include="Assets\Resources\Scripts\PlayButton.cs" />
